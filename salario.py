@@ -1,0 +1,5 @@
+nome = input('Qual o seu nome?')
+salario_fixo = float(input('Qual o seu salário fixo?'))
+vendas = float(input('Quantas vendas vc fez por mês?Em dinheiro: '))
+salario_final = salario_fixo + (vendas * 0.15)
+print(f'Então seu nome é {nome}, o seu salário fixo é {salario_fixo} e seu salário\n final é {salario_final}')
